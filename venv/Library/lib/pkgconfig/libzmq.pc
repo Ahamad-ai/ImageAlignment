@@ -1,0 +1,12 @@
+prefix=d:/MyLearnings/MyPractice/Practices/ImageAignment/venv/Library
+exec_prefix=d:/MyLearnings/MyPractice/Practices/ImageAignment/venv/Library
+libdir=d:/MyLearnings/MyPractice/Practices/ImageAignment/venv/Library/lib
+includedir=d:/MyLearnings/MyPractice/Practices/ImageAignment/venv/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+Libs: -L${libdir} -lzmq
+Libs.private: 
+Requires.private: 
+Cflags: -I${includedir} 

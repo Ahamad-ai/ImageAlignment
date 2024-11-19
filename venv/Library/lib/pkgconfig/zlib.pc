@@ -1,0 +1,13 @@
+prefix=d:/MyLearnings/MyPractice/Practices/ImageAignment/venv/Library
+exec_prefix=d:/MyLearnings/MyPractice/Practices/ImageAignment/venv/Library
+libdir=d:/MyLearnings/MyPractice/Practices/ImageAignment/venv/Library/lib
+sharedlibdir=d:/MyLearnings/MyPractice/Practices/ImageAignment/venv/Library/lib
+includedir=d:/MyLearnings/MyPractice/Practices/ImageAignment/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.1
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
